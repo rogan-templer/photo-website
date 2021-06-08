@@ -1,0 +1,88 @@
+.container {
+    max-width: 1750px;
+    margin: 0 auto;
+  }
+
+ 
+  .picture img {
+    max-width: 100%;
+  }
+
+  .logo {
+      margin-top: 1rem;
+      margin-left: 1rem;
+      margin right: 1rem;
+  }
+
+  .side-nav {
+     display: flex;
+     flex-direction: column;
+     width: 200px; 
+     justify-content: space-around;
+  }
+
+  li {
+    font-size: 1.5rem;    
+  }
+
+  .my-menu li {
+    position: relative;
+    margin-top: 1rem;
+  }
+  
+  .mainmenu a, .mainmenu label {
+    display: block;
+    background-color:
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+  }
+  .mainmenu a:hover, .mainmenu label:hover {
+      
+  }
+  
+  /* hide the input */
+  .mainmenu input {
+    display: none;
+  }
+  /* if a sibling checkbox is check show the menu */
+  .mainmenu input:checked ~ .submenu {
+    display: block;
+    max-height: 200px;
+  }
+  .submenu a, .submenu label {
+    background-color:
+  }
+  .submenu a:hover {
+    background-color:
+  }
+  .submenu {
+    overflow: hidden;
+    max-height: 0;
+    transition: all 0.5s ease-out;
+    
+  }
+  
+  a {
+    text-decoration: none
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+    margin-right: 7rem;
+  }
+
+  html { 
+    background: url(https://res.cloudinary.com/dcwkpahm5/image/upload/v1619055851/Nature/DSC03402-Pano-Edit_zad8ar.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body {
+    font-family: 'Mukta', sans-serif;
+  }
+  
